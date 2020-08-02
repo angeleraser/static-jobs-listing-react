@@ -70,11 +70,12 @@
   .filter-bar {
     padding: 20px 40px;
   }
-  .filter-bar .tags button {
+  .filter-bar .tags button,
+  .filter-bar .tags button:nth-child(odd) {
     margin-bottom: 0;
     margin-top: 0;
   }
-  .filter-bar .tags button:nth-child(odd) {
+  .filter-bar .tags button:last-child {
     margin-bottom: 0;
   }
 }
