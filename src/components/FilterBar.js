@@ -9,7 +9,7 @@ const FilterBar = () => {
     filterList([...filteredList]);
   };
   return (
-    <nav className={`filter-bar ${filters.length > 0 && "visible"}`}>
+    <nav className={`filter-bar${filters.length > 0 ? " visible" : ""}`}>
       <div className="tags">
         {filters.map((label) => (
           <button onClick={removeFilterFromBar} key={label}>
