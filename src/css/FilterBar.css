@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 25px 0  16px;
+  padding: 0 25px 0 16px;
   background-color: #fff;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -11,7 +11,7 @@
   bottom: 38px;
   width: 100%;
 }
-.filter-bar.visible{
+.filter-bar.visible {
   visibility: visible;
 }
 .filter-bar .tags {
@@ -24,7 +24,7 @@
   font-size: 12px;
   font-weight: 700;
   display: flex;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   justify-content: space-between;
   height: 32px;
   align-items: center;
@@ -33,7 +33,10 @@
   background-color: var(--light-gray-cyan-1);
   margin: 16px 16px 0 0;
 }
-.filter-bar .tags button:nth-child(odd){
+.filter-bar .tags button:nth-child(odd) {
+  margin-top: 16px;
+}
+.filter-bar .tags button:last-child {
   margin-bottom: 16px;
 }
 .filter-bar .tags button::after {
@@ -56,7 +59,7 @@
 .filter-bar .clear-btn {
   background-color: transparent;
   font-weight: 700;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   color: #848d8a;
 }
 .filter-bar .clear-btn:hover {
@@ -71,7 +74,7 @@
     margin-bottom: 0;
     margin-top: 0;
   }
-  .filter-bar .tags button:nth-child(odd){
+  .filter-bar .tags button:nth-child(odd) {
     margin-bottom: 0;
   }
 }
