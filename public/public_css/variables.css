@@ -1,0 +1,7 @@
+:root {
+  --desaturated-dark-cyan: hsl(180, 29%, 50%);
+  --light-gray-cyan-1: hsl(180, 52%, 96%);
+  --light-gray-cyan-2: hsl(180, 31%, 95%);
+  --dark-gray-cyan-1: #c0c2c1;
+  --dark-gray-cyan-2: hsl(180, 14%, 20%);
+}
