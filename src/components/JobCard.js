@@ -36,7 +36,7 @@ const JobCard = ({
           )}
           <a className="ocupation">{ocupation}</a>
           <span>{postDate}</span>
-          <span className="job- time">{time}</span>
+          <span className="time">{time}</span>
           <span>{country}</span>
         </div>
       </div>
